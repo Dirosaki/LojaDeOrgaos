@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<%- include('shared/head') %>
+<body>
+    <%- include('shared/header') %>
+        <section class="orgaos">
+        <div class="container">
+            <% for (let orgao of orgaos){ %>
+            <div>
+                <img src="<%= orgao.img %>" alt="">
+                <h3><%= orgao.nome %></h3>
+                <button><a href="/carrinho">Comprar</a></button>
+            </div> 
+            <% } %>            
+        </div>
+    </section>
+</body>
+</html>

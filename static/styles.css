@@ -1,0 +1,94 @@
+*{
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
+}
+
+section{
+    width: 100%;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+
+body{
+    background-color: #fcfcff;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color: #A30B37;
+    display: flex;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20pt;
+    color: white;
+    
+}
+
+div{
+    width: 100px;
+    /* background-color: #A30B37; */
+    background-position: center;
+    margin: 30px auto 0 auto;
+    
+}
+
+
+.orgaos .container{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.orgaos .container div{
+    border: solid#777 1px;
+    margin: 15px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    border: 0;
+    width: 150px;
+    background-color: #A30B37;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: #fcfcff;
+
+}
+
+::-webkit-scrollbar-thumb{
+    width: 5px;
+    background-color: #A30B37;
+    border-radius: 500px;
+}

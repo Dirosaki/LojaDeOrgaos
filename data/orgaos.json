@@ -1,0 +1,26 @@
+[
+    {
+        "nome": "Cerebro",
+        "img": "/static/img1.png"
+    },
+    {
+        "nome": "Figado",
+        "img": "/static/img2.png"
+    },
+    {
+        "nome": "Pulmão",
+        "img": "/static/img3.png"
+    },
+    {
+        "nome": "Estomago",
+        "img": "/static/img4.png"
+    },
+    {
+        "nome": "Coracao",
+        "img": "/static/img5.png"
+    },
+    {
+        "nome": "Intestino",
+        "img": "/static/img6.png"
+    }
+]
